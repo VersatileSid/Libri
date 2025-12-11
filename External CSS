@@ -1,0 +1,13 @@
+This is External CSS used i Website
+h1{
+    color:rgb(255, 162, 0);
+    text-align: center;
+    
+}
+li{
+    color: aquamarine;
+    text-align: center;
+}
+tr{
+    color: rgb(30, 93, 210);
+}
