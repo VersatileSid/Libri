@@ -1,0 +1,109 @@
+This is home page of Website
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Libri-Libray</title>
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <style>
+        .main-container {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            gap: 80px;
+        }
+
+        .row {
+            display: flex;
+            justify-content: center;
+            gap: 30px;
+        }
+
+        .box {
+            width: 300px;
+            height: 300px;
+            border: 10px;
+            border-radius: 20px;
+            background-color: transparent;
+            vertical-align: center;
+            background-size: contain;
+            background-repeat: no-repeat;
+            text-align: center;
+        }
+
+        .btn {
+            border-color: rgb(58, 193, 255);
+            box-shadow: 12%;
+            background-color: rgb(0, 153, 255);
+            width: 60px;
+            height: 50px;
+            border-radius: 30%;
+            color: white;
+            margin-top: 310px;
+        }
+    </style>
+    
+<body>
+        <div class="slide">
+            <table width="100%" style="background-color: green;">
+                <tr>
+                    <td><font color="white" size="10">MENU</font>
+                <td align="right">
+                    <a href="libri.html" style="color:white; text-decoration:none;margin-right: 30px;">Home</a>
+                    <a href="Review Book.html" style="color:white; text-decoration:none;margin-right: 30px">Reviewbook</a>
+                    <a href="About.html" style="color:white; text-decoration:none;margin-right: 30px">About</a>
+                    <a href="Contact.html" style="color:white; text-decoration:none;">Contact</a>
+                    </td>
+                    </tr>       
+                    </table>
+                    <center>
+                        <br>
+                        <h1>Welcome to Libri</h1>
+                        <h3>Best platform for Books</h3>
+                        <h4>Thousands of books avilable for free</h4>
+        </div>
+    </label>
+</body>
+<br>
+<body>
+    <div class="main-container">
+        <div class="row">
+            <div class="box" style="background-image: url('Libri book 1.webp');">
+               <a href="Review Book.html"><button class="btn">Review</button></a> 
+               <a href="the-alchemist-paulo-coelho.pdf"target="_blank"> <button class="btn">Read</button></a>
+            </div>
+            <div class="box" style="background-image: url('Libri book 2.webp');">
+             <a href="Review Book.html"><button class="btn">Review</button></a> 
+             <a href="JRR Tolkien - Lord of the Rings Collection.pdf"target="_blank"> <button class="btn">Read</button></a>
+            </div>
+            <div class="box" style="background-image: url('Libri book 3.webp');">
+             <a href="Review Book.html"><button class="btn">Review</button></a> 
+             <a href="All Quiet on Western Front.pdf"target="_blank"> <button class="btn">Read</button></a>
+            </div>
+        </div>
+
+        <div class="row">
+            <div class="box" style="background-image: url('Libri book 4.webp');">
+             <a href="Review Book.html"><button class="btn">Review</button></a> 
+             <a href="pride-and-prejudice.pdf"target="_blank"> <button class="btn">Read</button></a>
+            </div>
+            <div class="box" style="background-image: url('Libri book 5.webp');">
+             <a href="Review Book.html"><button class="btn">Review</button></a> 
+             <a href="the-origen-of-species.pdf"target="_blank"> <button class="btn">Read</button></a>
+            </div>
+            <div class="box" style="background-image: url('Libri book 6.webp');">
+             <a href="Review Book.html"><button class="btn">Review</button></a> 
+             <a href="The-Catcher-in-the-Rye-full-text.pdf"target="_blank"> <button class="btn">Read</button></a>
+            </div>
+        </div>
+    </div>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+<footer>
+    <p>&copy; 2025 My Library</p>
+  </footer>
+</html>
