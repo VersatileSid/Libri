@@ -1,0 +1,73 @@
+This is About Us page of Website
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>About Me</title>
+  <style>
+    body {
+      display: flex;
+      flex-direction: column;
+      min-height: 100vh; /* full viewport height */
+      margin: 0;
+      font-family: Arial, sans-serif;
+      background-color: #f4f4f9;
+      color: #333;
+    }
+
+    header {
+      background-color: #4CAF50;
+      color: white;
+      padding: 20px;
+      text-align: center;
+    }
+
+    main {
+      flex: 1; /* take up remaining space */
+      max-width: 800px;
+      margin: 40px auto;
+      padding: 20px;
+      background: white;
+      border-radius: 8px;
+      box-shadow: 0 2px 6px rgba(0,0,0,0.1);
+    }
+
+    h1, h2 {
+      margin-top: 0;
+    }
+
+    p {
+      line-height: 1.6;
+    }
+
+    footer {
+      text-align: center;
+      padding: 15px;
+      background-color: #eee;
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>About Me</h1>
+  </header>
+
+  <main>
+    <h2>Hello, I'm Siddharth</h2>
+    <p>
+      I’m passionate about technology, leadership, and innovation. I enjoy working on IoT projects, 
+      exploring sensor technology, and making complex ideas simple for teams. My goal is to build 
+      inclusive strategies that empower people and drive sustainable growth.
+    </p>
+    <p>
+      Outside of work, I love learning new concepts, writing thought leadership pieces, and mentoring 
+      others to achieve their potential.
+    </p>
+  </main>
+
+  <footer>
+    <p>&copy; 2025 Siddharth | Designed with ❤️ using HTML & CSS</p>
+  </footer>
+</body>
+</html>
