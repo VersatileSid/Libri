@@ -1,0 +1,102 @@
+This website Review page
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Book Review Form</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      background: #f9f6f2;
+      display: flex;
+      justify-content: center;
+      align-items: flex-start;
+      min-height: 100vh;
+      margin: 0;
+      padding: 40px;
+    }
+
+    .form-container {
+      background: #fff;
+      padding: 25px 30px;
+      border-radius: 10px;
+      box-shadow: 0 4px 12px rgba(0,0,0,0.1);
+      width: 400px;
+    }
+
+    h1 {
+      text-align: center;
+      color: #4a3f35;
+      margin-bottom: 20px;
+    }
+
+    label {
+      font-weight: bold;
+      display: block;
+      margin-bottom: 6px;
+      color: #333;
+    }
+
+    input[type="text"],
+    input[type="number"],
+    textarea {
+      width: 100%;
+      padding: 10px;
+      margin-bottom: 15px;
+      border: 1px solid #ccc;
+      border-radius: 6px;
+      font-size: 14px;
+    }
+
+    input[type="submit"] {
+      background: #8b5e3c;
+      color: #fff;
+      border: none;
+      padding: 12px;
+      border-radius: 6px;
+      font-size: 16px;
+      cursor: pointer;
+      width: 100%;
+      transition: background 0.3s ease;
+    }
+
+    input[type="submit"]:hover {
+      background: #6d4c2f;
+    }
+  </style>
+</head>
+<body>
+  <div class="form-container">
+    <h1>Book Review Form</h1>
+    <form onsubmit="goHome(event)">
+      <!-- Book details -->
+      <label for="title">Book Title:</label>
+      <input type="text" id="title" name="title" required>
+
+      <label for="author">Author:</label>
+      <input type="text" id="author" name="author" required>
+
+      <!-- Review details -->
+      <label for="rating">Rating (1–5):</label>
+      <input type="number" id="rating" name="rating" min="1" max="5" required>
+
+      <label for="review">Your Review:</label>
+      <textarea id="review" name="review" rows="5" required></textarea>
+
+      <!-- Reviewer info -->
+      <label for="name">Your Name:</label>
+      <input type="text" id="name" name="name">
+
+      <!-- Submit -->
+      <input type="submit" value="Submit Review">
+    </form>
+  </div>
+
+  <script>
+    function goHome(event) {
+      event.preventDefault(); 
+      window.location.href = "libri.html"; 
+    }
+  </script>
+</body>
+</html>
